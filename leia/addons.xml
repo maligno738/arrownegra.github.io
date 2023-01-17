@@ -338,7 +338,7 @@ version="1.0" provider-name="Flechanegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.86" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.87" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -2114,29 +2114,42 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-<addon id="script.cine_e_series.artwork" version="1.0.0" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Artwork[/COLOR]" provider-name="ArrowNegra">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes For cine e series Addon</summary>
-		<description>Artwork Module For cine e series Addon</description>
-        <disclaimer lang="en"></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.cine_e_series.metadata" version="1.0.0" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Metadata[/COLOR]" provider-name="ArrowNegra">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the cine_e_series Addon</summary>
-		<description>Metadata for cine_e_series are maintained separately to make distribution of the the addon itself easier/faster.</description>
-		<platform>all</platform>
-	</extension>
+<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.73" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="plugin.video.elementum" optional="true"/>
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.future" version="0.16.0.4"/>
+    </requires>
+    <extension point="xbmc.python.script" library="burst.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum torrents provider</summary>
+        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
+        <summary lang="es">Proveedor de torrents Elementum</summary>
+        <summary lang="ru">Поисковое дополнение Elementum</summary>
+        <summary lang="sv">Elementum-torrentleverantör</summary>
+        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
+        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
+        <description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
+        <description lang="ru">Elementum Burst это поисковое дополнение, для поиска торрентов для Elementum.</description>
+        <description lang="sv">Elementum Burst är en enkel och effektiv multi-leverantör för Elementum.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
+        <disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
+        <disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
+        <disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
+        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+        <website>https://elementum.surge.sh</website>
+        <source>https://github.com/elgatito/script.elementum.burst</source>
+        <forum>TODO</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="script.grab.fanart"
@@ -2585,7 +2598,6 @@ version="1.0" provider-name="Flechanegra">
 	</extension>
 </addon>
 
-
 <addon id="script.skin.info.service" name="Skin Info Service" version="2.0.0" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -2676,6 +2688,7 @@ version="1.0" provider-name="Flechanegra">
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
 </addon>
+
 <addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.3" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
    <requires>
 	<import addon="script.module.six" />
