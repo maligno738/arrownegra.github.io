@@ -128,7 +128,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="2.0" provider-name="@by_flecha_negra">
+<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="12.10" provider-name="@by_flecha_negra">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.simplejson" />
