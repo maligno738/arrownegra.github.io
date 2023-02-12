@@ -600,7 +600,7 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 </addon>
 
 <addon id="plugin.video.aguiavavoo"
-version="19.6.6matrix2"
+version="19.9.7matrix2"
 name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]"
 provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 <requires>
@@ -620,6 +620,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   </assets>
 </extension>
 </addon>
+
 
 <addon id="plugin.video.aguia_de_ouro" version="1.1.1" name="[COLOR red]Águia [COLOR black]de [COLOR gold]Ouro[/COLOR]" provider-name="@Flecha_Negra">
     <requires>
