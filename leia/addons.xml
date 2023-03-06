@@ -599,7 +599,7 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.scrubsv2" version="5.0.28" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
+<addon id="plugin.video.scrubsv2" version="5.1.15" name="[COLOR orange]Scrubs v2[/COLOR]" provider-name="JewBMX">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -626,7 +626,7 @@ version="1.0" provider-name="Flechanegra">
             <fanart>resources/images/fanart.jpg</fanart>
             <screenshot>resources/images/screenshot.png</screenshot>
         </assets>
-        <news>[B] Total CleanUp of Providers [/B]: Checked and Cleaned as of Oct. 2022. [CR][B] Check ChangeLog For More Details. [/B] [CR][B] (Please Report Any Issues To Me Directly By Email Or GitHub.) [/B]</news>
+        <news>[B] Total CleanUp of Providers [/B]: Checked and Cleaned as of Feb. 2023. [CR][B] Check ChangeLog For More Details. [/B] [CR][B] (Please Report Any Issues To Me Directly By Email Or GitHub.) [/B]</news>
     </extension>
 </addon>
 
