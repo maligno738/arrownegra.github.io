@@ -532,6 +532,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.aguia.animes" version="0.0.1" name="[B]ÁGUIA ANIMES[/B]" provider-name="@By_Flechsa_Negra">
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>  
+    <extension point="xbmc.addon.metadata">
+    <summary>Águia Animes é um addon que reproduz animes</summary>
+    <description>Todos os videos são de sites terceiros, não hospedamos conteudo</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="20.24+matrix3" provider-name="">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -694,6 +718,23 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
      <media>resources/medias/series.jpg</media>
     </assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.0" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
+  <language>en</language>
+  <description lang="en">[COLOR orange]This addon does not supply nor provide any illegal content[/COLOR]</description>
+  <platform>all</platform>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.arrow.lsp" name="ArrowLSP" version="3.0.0" provider-name="arrownegra">
