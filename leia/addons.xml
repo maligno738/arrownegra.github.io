@@ -29,7 +29,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.aguia.animes" version="0.0.1" name="[B]ÁGUIA ANIMES[/B]" provider-name="@By_Flechsa_Negra">
+<addon id="plugin.video.aguia.animes" version="0.0.2" name="[B]ÁGUIA ANIMES[/B]" provider-name="Arrow Negra">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
