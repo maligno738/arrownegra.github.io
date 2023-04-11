@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="1.9.5" provider-name="[COLOR red]@By_Flecha[/COLOR][COLORdarkgrey]Negra[/COLOR]">
+<addon id="plugin.video.flechanegra.vip" name="[COLORred]Flecha[COLORgrey]Negra [COLORgold]Vip[/COLOR]" version="1.9.9" provider-name="[COLOR red]Arrow[/COLOR][COLORdarkgrey]Negra[/COLOR]">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -10,7 +10,7 @@
  	</extension>  
 <extension point="xbmc.addon.metadata">
 		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]x-[/COLOR] [COLORorange]codes[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+		<description lang="en">[COLOR red]Flechanegra[/COLOR] [COLORorange]Vip[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
 		<platform>all</platform>
 		<assets>
        <icon>icon.png</icon>

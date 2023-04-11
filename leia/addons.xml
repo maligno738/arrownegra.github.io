@@ -574,6 +574,28 @@ version="1.0" provider-name="Flechanegra">
 	</extension>
 </addon>
 
+<addon id="plugin.video.flechanegra.vip" name="[COLORred]Flecha[COLORgrey]Negra [COLORgold]Vip[/COLOR]" version="1.9.9" provider-name="[COLOR red]Arrow[/COLOR][COLORdarkgrey]Negra[/COLOR]">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>  
+<extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]Flechanegra[/COLOR] [COLORorange]Vip[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
 <addon id="plugin.video.freshstart" name="Fresh Start"
 	version="1.0.5" provider-name="tvaddons.ag">
   <requires>
