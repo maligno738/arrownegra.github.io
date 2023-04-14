@@ -2489,7 +2489,7 @@ v3.0.3
     </extension>
 </addon>
 
-<addon id="plugin.video.aguiagold" name="[COLORred]Aguia[COLORgold]Gold[/COLOR]" version="3.1.5" provider-name="FlechaNegra">
+<addon id="plugin.video.aguiagold" name="[COLORred]Aguia[COLORgold]Gold[/COLOR]" version="3.1.6" provider-name="FlechaNegra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.22.0"/>
