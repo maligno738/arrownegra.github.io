@@ -173,23 +173,6 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
-<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.0" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
-  <extension point="xbmc.python.pluginsource"
-      library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  <summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
-  <language>en</language>
-  <description lang="en">[COLOR orange]This addon does not supply nor provide any illegal content[/COLOR]</description>
-  <platform>all</platform>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.arrow.lsp"
        name="Arrow LSP"
        version="2.9.9"
@@ -596,6 +579,7 @@ version="1.0" provider-name="Flechanegra">
     </assets>
   </extension>
 </addon>
+
 <addon id="plugin.video.freshstart" name="Fresh Start"
 	version="1.0.5" provider-name="tvaddons.ag">
   <requires>
@@ -2344,19 +2328,6 @@ version="1.0" provider-name="Flechanegra">
     </extension>
 </addon>
 
-<addon id="script.module.cine_e_series" name="[COLORgrey]Cine[/COLOR] e [COLORmaroon]Series[/COLOR][COLORcyan] Module[/COLOR]" version="1.0.0" provider-name="ArrowNegra">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">cine_e_series</summary>
-		<description></description>
-        <disclaimer lang="en"></disclaimer>
-	</extension>
-</addon>
-
 <addon id="script.module.cryptopy" name="CryptoPy" version="1.2.6" provider-name="cryptopy.sourceforge.net">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2845,29 +2816,6 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
     <summary>Pach API pvr Águia de Fogo</summary>
 		<description lang="en">[COLOR red]pvr.aguia.de.fogo[/COLOR] [COLORorange]stalker[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-	
-	<assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
-<addon id="script.x-codes.api" name="[COLORorange]Pach API X-Codes[/COLOR]" version="0.3.5" provider-name="[COLORorange]@By_Flech_anegra[/COLOR]">
-   <requires>
-	<import addon="script.module.six"/>
-        <import addon="script.module.kodi-six"/>
-	<import addon="plugin.video.x-codes" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-    <provides>executable</provides>
-  </extension>  
-  <extension point="xbmc.addon.metadata">
-     <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
-    <platform>all</platform>
-    <summary>pach API X-Codes</summary>
-		<description lang="en">[COLOR red]plugin.video.x-[/COLOR] [COLORorange]codes[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
 	
 	<assets>
      <icon>icon.png</icon>
