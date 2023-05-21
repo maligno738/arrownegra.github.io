@@ -2553,6 +2553,28 @@ Não se aceita nenhuma responsabilidade pelo uso deste addon.
 	</extension>
 </addon>
 
+<addon id="plugin.video.aguia.lobo" name="[COLORlime]Aguia[/COLOR] [COLORyellow]Lobo[/COLOR]" version="1.3.8" provider-name="@by_arrow_negra"> 
+    <requires>
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+    </requires>  
+       <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>  
+<extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]Aguia[/COLOR] [COLORorange]Lobo[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+    </extension>
+</addon>    
 <addon id="plugin.video.aguiavavoo"
 version="19.9.7matrix2"
 name="[COLORred]Águia [COLORwhite]Vavoo[/COLOR]"
