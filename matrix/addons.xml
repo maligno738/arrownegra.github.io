@@ -2625,7 +2625,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.aquaman" name="[COLORcyan]Aqua[COLORgold]man[/COLOR]" version="2.0.5" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -2633,7 +2633,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   <extension point="xbmc.addon.metadata">
   <summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
   <language>en</language>
-  <description lang="en">[COLOR orange]This addon does not supply nor provide any illegal content[/COLOR]</description>
+  <description lang="en">[COLOR orange]This [COLORblack]Arrow[/COLOR][COLORmaroon]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
   <platform>all</platform>
   <assets>
     <icon>icon.png</icon>
@@ -2770,27 +2770,21 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.Black_Truck" name="[COLOR red]Black [COLORorange]Truck[/COLOR]" version="1.1.0" provider-name="Flechanegra">
-   <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-	</extension>
-<extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]Black[/COLOR] [COLORorange]Truck[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-</extension>
+<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
+  <language>en</language>
+  <description lang="en">[COLOR orange]This [COLORcyan]Arrow[/COLOR][COLORgold]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
+  <platform>all</platform>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.duffyou" name="Duff You" version="0.1.3" provider-name="La Taberna">
