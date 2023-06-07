@@ -860,7 +860,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.2.8" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
