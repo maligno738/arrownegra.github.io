@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.2.9" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>
@@ -7,7 +7,7 @@
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
 	<language>en</language>
-	<description lang="en">[COLOR orange]This [COLORblack]Arrow[/COLOR][COLORmaroon]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
+	<description lang="en">[COLOR orange]This [COLORcyan]Arrow[/COLOR][COLORgold]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

@@ -715,7 +715,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.0.9" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -860,7 +860,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.2.8" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.2.9" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -1108,7 +1108,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.flechanegra.vip" name="[COLORred]Flecha[COLORgrey]Negra [COLORgold]Vip[/COLOR]" version="2.1.6" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.flechanegra.vip" name="[COLORred]Flecha[COLORgrey]Negra [COLORgold]Vip[/COLOR]" version="2.1.9" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -1215,7 +1215,7 @@ v1.0.0.matrix.1
 </extension>
 </addon>
 
-<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.0.6" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR blue]K[COLORwhite]-[COLORgreen]P[COLORred]T[/COLOR]" version="2.0.7" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
