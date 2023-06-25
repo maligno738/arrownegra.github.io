@@ -2489,7 +2489,7 @@ v3.0.3
     </extension>
 </addon>
 
-<addon id="plugin.video.aguiagold" name="[COLORred]Aguia[COLORgold]Gold[/COLOR]" version="3.1.8" provider-name="FlechaNegra">
+<addon id="plugin.video.aguiagold" name="[COLORred]Aguia[COLORgold]Gold[/COLOR]" version="3.1.9" provider-name="FlechaNegra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.22.0"/>
@@ -2960,7 +2960,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   
 </addon>
 
-<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="3.1.2" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix.portal" name="[COLOR red]fenix [COLORorange]portal[/COLOR]" version="3.1.5" provider-name="by_flecha_negra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
 	<import addon="script.module.requests" />
@@ -2983,6 +2983,26 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
        <screenshot>resources/screenshots/3.jpg</screenshot>
     </assets>
 </extension>
+</addon>
+
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.2" provider-name="FlechaNegra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">[COLORred]Flash[COLORgold]Brasil[/COLOR]</summary>
+    <description lang="en_GB">[COLOR gold]Flash[/COLOR] [COLOR lime]Brasil[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
+    <language>en</language>
+    <platform>all</platform>
+      <assets>
+        <icon>icon.png</icon>
+  <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.1.7+matrix.1" provider-name="Flechanegra">
