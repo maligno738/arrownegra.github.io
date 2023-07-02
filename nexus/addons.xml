@@ -556,7 +556,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="20.26" provider-name="by_flecha_negra">
+<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="21.27" provider-name="by_flecha_negra">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.25.1+matrix.1"/>
@@ -904,7 +904,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 
 
 <addon
-  id="plugin.video.eagleteam.mac" version="1.1" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="by_flecha_negra">
+  id="plugin.video.eagleteam.mac" version="1.2" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="by_flecha_negra">
 <requires>        
       <import addon="script.module.resolveurl"/>
       <import addon="script.module.requests"/>  

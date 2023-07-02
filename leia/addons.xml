@@ -384,7 +384,7 @@ version="1.0" provider-name="Flechanegra">
 </addon>
 
 <addon
-  id="plugin.video.eagleteam.mac" version="1.1" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="by_flecha_negra">
+  id="plugin.video.eagleteam.mac" version="1.2" name="[COLOR silver]Eagle[COLOR dimgrey] Team [/COLOR][COLOR white] MAC [/COLOR]" provider-name="by_flecha_negra">
 <requires>        
       <import addon="script.module.resolveurl"/>
       <import addon="script.module.requests"/>  
