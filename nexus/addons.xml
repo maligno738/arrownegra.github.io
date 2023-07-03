@@ -556,7 +556,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="21.28" provider-name="by_flecha_negra">
+<addon id="plugin.video.aguia-branca" name="[COLOR maroon]ÁGUIA[/COLOR] [COLOR gold]BRANCA[/COLOR]" version="21.29" provider-name="by_flecha_negra">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.25.1+matrix.1"/>
@@ -932,7 +932,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.87" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.89" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
