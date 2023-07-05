@@ -932,12 +932,12 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.89" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.91" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
         <import addon="script.module.kodi-six" />
-        <import addon="script.module.requests" />
+        <import addon="script.module.requests" version="2.9.1" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
