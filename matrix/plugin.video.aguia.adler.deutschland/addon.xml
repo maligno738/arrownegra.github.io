@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.adler.deutschland" name="[COLOR grey]Adler[COLORblack]Deu[COLORred]tsch[COLORyellow]land[/COLOR]" version="0.0.1" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR maroon] Nur für die Besten!![/COLOR] </summary>
+	<language>en</language>
+	<description lang="en">[COLOR orange]Dieses Addon stellt keine illegalen Inhalte bereit[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
