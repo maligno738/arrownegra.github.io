@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.1" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.2" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
 			library="default.py">
 		<provides>video</provides>
@@ -7,7 +7,7 @@
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">[COLOR maroon]Apenas para os melhores!!![/COLOR] </summary>
 	<language>en</language>
-	<description lang="en">[COLOR orange]This [COLORcyan]Arrow[/COLOR][COLORgold]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
+	<description lang="en">[COLORlime]Port[COLORgrey]ugal[COLORgold]é um addon do ArrowNegra Team[COLORgreen] Pensado para o povo Luso. [COLORred]Todos os links estão disponíveis na Internet![/COLOR]</description>
 	<platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>

@@ -1093,26 +1093,22 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.3" provider-name="FlechaNegra">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.requests" version="2.22.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.4" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">[COLORred]Flash[COLORgold]Brasil[/COLOR]</summary>
-    <description lang="en_GB">[COLOR gold]Flash[/COLOR] [COLOR lime]Brasil[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
     <language>en</language>
+    <description lang="en_GB">[COLOR gold]Flash[/COLOR] [COLOR lime]Brasil[/COLOR] [COLORorange]is an add-on from the  Flechanegra family. ALL LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
     <platform>all</platform>
-      <assets>
-        <icon>icon.png</icon>
-  <fanart>fanart.jpg</fanart>
-    </assets>
+    <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
 </addon>
-
 <addon id="plugin.video.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]" version="1.1.7+matrix.1" provider-name="Flechanegra">
 <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1396,7 +1392,7 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
-<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.1" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.2" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
@@ -1404,7 +1400,7 @@ v1.14.1 (2021-02-25)
   <extension point="xbmc.addon.metadata">
   <summary lang="en">[COLOR maroon]Apenas para os melhores!!![/COLOR] </summary>
   <language>en</language>
-  <description lang="en">[COLOR orange]This [COLORcyan]Arrow[/COLOR][COLORgold]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
+  <description lang="en">[COLORlime]Port[COLORgrey]ugal[COLORgold]é um addon do ArrowNegra Team[COLORgreen] Pensado para o povo Luso. [COLORred]Todos os links estão disponíveis na Internet![/COLOR]</description>
   <platform>all</platform>
   <assets>
     <icon>icon.png</icon>
