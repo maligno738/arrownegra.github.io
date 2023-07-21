@@ -3002,7 +3002,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.2" provider-name="FlechaNegra">
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.3" provider-name="FlechaNegra">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.22.0"/>
