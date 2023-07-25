@@ -2808,7 +2808,7 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="script.aguiabranca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.4.5" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
+<addon id="script.aguia-branca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.4.7" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
    <requires>
 	<import addon="script.module.six" />
 	<import addon="plugin.video.aguia-branca" />
