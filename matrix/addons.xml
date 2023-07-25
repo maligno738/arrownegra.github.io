@@ -6229,7 +6229,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
     </extension>
 </addon>
 
-<addon id="script.aguiabranca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.3.2" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
+<addon id="script.aguia-branca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.4.6" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
    <requires>
 	<import addon="script.module.six" />
 	<import addon="plugin.video.aguia-branca" />
