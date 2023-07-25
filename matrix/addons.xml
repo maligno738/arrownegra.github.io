@@ -2949,7 +2949,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.6.4" provider-name="by_flecha_negra">
+<addon id="plugin.video.fenix-mac" name="[COLORcyan]fenix[COLORgrey]Mac[/COLOR]" version="1.6.5" provider-name="by_flecha_negra">
 
   <requires>        
       <!--<import addon="script.module.resolveurl" /> -->     
@@ -3207,7 +3207,7 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.netflix" name="Netflix" version="1.14.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+<addon id="plugin.video.netflix" name="Netflix" version="1.22.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
@@ -6249,6 +6249,32 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+<addon id="script.aguiabranca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.3.2" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
+   <requires>
+	<import addon="script.module.six" />
+	<import addon="plugin.video.aguia-branca" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>executable</provides>
+  </extension>  
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+    <summary lang="pt"></summary>
+    <description lang="en"></description>
+	<description lang="pt"></description>
+     <disclaimer lang="en"></disclaimer>
+	 <disclaimer lang="pt"></disclaimer>
+    <platform>all</platform>
+    <description>
+        [COLOR red]aguia-branca.api [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]
+    </description>
+	<assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.module.slyguy" name="SlyGuy Common" provider-name="SlyGuy" version="0.32.7">
