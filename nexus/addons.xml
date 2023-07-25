@@ -1297,7 +1297,7 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.netflix" name="Netflix" version="1.14.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+<addon id="plugin.video.netflix" name="Netflix" version="1.22.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
@@ -3190,7 +3190,7 @@ v5.1.2 (2020-03-21) by enen92
   </extension>
 </addon>
 
-<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.6.7">
+<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.14.0">
   <requires>
     <import addon="script.module.slyguy"/>
   </requires>
