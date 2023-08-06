@@ -2642,6 +2642,31 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
+<addon id="plugin.video.aguillas.douradas.portal" name="[COLOR red]Aguillas Douradas [COLORorange]Portal TV[/COLOR]" version="1.1" provider-name="by_flecha_negra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" />
+  <import addon="script.module.simplejson" />
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>  
+<extension point="xbmc.addon.metadata">
+    <summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]Aguillas Douradas[/COLOR] [COLORorange]portal TV[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+</extension>
+</addon>
+
 <addon id="plugin.video.aquaman.portugal" name="[COLORcyan]Aqua[COLORgold]Man [COLORgrey]Portugal[/COLOR]" version="2.1.2" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
@@ -6496,6 +6521,43 @@ v5.1.2 (2020-03-21) by enen92
 		</assets>
 		<source>https://github.com/juokelis/service.subtitles.opensubtitles</source>
 	</extension>
+</addon>
+
+<addon
+  id="skin.flechanegra.2.0"
+  version="2.0"
+  name="[COLOR maroon]Flecha [COLOR grey]Negra [COLORgold]2.0[/COLOR]"
+  provider-name="FlechaNegra">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.skinshortcuts" version="1.1.4"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+    <res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+    <res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+    <res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+    <res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+    <res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+    <res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <source></source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <summary lang="pt_PT">A skin Flecha Negra Geração 2.0 </summary>
+    <description lang="pt_PT">Unity é uma adaptação de Confluence baseada num design material.</description>
+    <disclaimer lang="pt_PT">Mais informações sobre esta skin podem ser encontradas nos forums do Kodi.</disclaimer>
+  </extension>
 </addon>
 
 <addon
