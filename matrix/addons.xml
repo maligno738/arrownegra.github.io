@@ -6274,26 +6274,26 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
     </extension>
 </addon>
 
-<addon id="script.aguia-branca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.4.6" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
+<addon id="script.aguia-branca.api" name="[COLORorange]Pach API Aguia_Branca[/COLOR]" version="0.4.8" provider-name="[COLORorange]@By_Flecha_Negra[/COLOR]">
    <requires>
-	<import addon="script.module.six" />
-	<import addon="plugin.video.aguia-branca" />
+  <import addon="script.module.six" />
+  <import addon="plugin.video.aguia-branca" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="main.py">
     <provides>executable</provides>
   </extension>  
   <extension point="xbmc.addon.metadata">
-	<summary lang="en"></summary>
+  <summary lang="en"></summary>
     <summary lang="pt"></summary>
     <description lang="en"></description>
-	<description lang="pt"></description>
+  <description lang="pt"></description>
      <disclaimer lang="en"></disclaimer>
-	 <disclaimer lang="pt"></disclaimer>
+   <disclaimer lang="pt"></disclaimer>
     <platform>all</platform>
     <description>
         [COLOR red]aguia-branca.api [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]
     </description>
-	<assets>
+  <assets>
      <icon>icon.png</icon>
      <fanart>fanart.jpg</fanart>
     </assets>
