@@ -3019,7 +3019,7 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
-<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.4" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
+<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.5" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
    <requires>
   <import addon="script.module.six" />
   <import addon="pvr.aguia.de.fogo" />

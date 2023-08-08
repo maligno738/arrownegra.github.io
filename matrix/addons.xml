@@ -6321,7 +6321,7 @@ Full changelog here: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/pvr.
   </extension>
 </addon>
 
-<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.2.2" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
+<addon id="script.pvr.aguia.de.fogo.api" name="[COLORorange]Pach API pvr.Aguia.de.Fogo[/COLOR]" version="0.4.5" provider-name="[COLORorange]@By_Flecha_negra[/COLOR]">
    <requires>
 	<import addon="script.module.six" />
 	<import addon="pvr.aguia.de.fogo" />
