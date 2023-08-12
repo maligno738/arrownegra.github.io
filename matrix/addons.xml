@@ -2883,10 +2883,10 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
   
 </addon>
 
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.92" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.96" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="repository.elementum" optional="true" />
+        <import addon="repository.elementumorg" optional="true" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.requests" version="2.9.1" />
     </requires>
@@ -2927,6 +2927,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
         </assets>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.EspadaNegra" name="[COLOR silver]Espada[COLOR dimgrey] Negra [/COLOR]" version="1.2.1" provider-name="By_Flecha_Negra">
   <requires>
