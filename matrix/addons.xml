@@ -3561,20 +3561,22 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="plugin.video.vultur.de.foc" name="[COLORlime]Vultur[/COLOR] [COLORmaroon]foc[/COLOR]" version="0.2" provider-name="@by_arrow_negra">
-    <requires>
-        <import addon="script.module.simplejson" />
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-       <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.video.vultur.de.foc.portal" name="[COLORlime]Vultur[/COLOR] [COLORmaroon]foc.portal[/COLOR]" version="0.3" provider-name="by_flecha_negra">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  <import addon="script.module.requests" />
+  <import addon="script.module.simplejson" />
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-	</extension>
+  </extension>  
 <extension point="xbmc.addon.metadata">
-		<summary>Canais de Televisão, desportos e mais...</summary>
-		<description lang="en">[COLOR red]vultur[/COLOR] [COLORorange]foc[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
-		<platform>all</platform>
-		<assets>
+<summary>Canais de Televisão, desportos e mais...</summary>
+    <description lang="en">[COLOR red]vultur[/COLOR] [COLORorange]foc.portal[/COLOR] [COLORorange]é um addon da familia ArrowNegra.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <platform>all</platform>
+    <assets>
        <icon>icon.png</icon>
        <fanart>fanart.jpg</fanart>
        <screenshot>resources/screenshots/1.jpg</screenshot>
