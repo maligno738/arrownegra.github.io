@@ -861,7 +861,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
     </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.2.4+matrix.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Click[/COLOR]" version="1.2.5" provider-name="Flechanegra">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
