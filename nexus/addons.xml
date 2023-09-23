@@ -1139,7 +1139,7 @@ provider-name="Thks 2 stube Frkd by L.M. @ArrowNegra">
 </extension>
 </addon>
 
-<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.4" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.flash.brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.2.5" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
