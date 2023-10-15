@@ -3225,7 +3225,7 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.jetproxy" version="1.0.3" name="JetProxy" provider-name="t4ils">
+<addon id="plugin.video.jetproxy" version="1.0.3.a" name="JetProxy" provider-name="t4ils">
 <requires>
   <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.routing"/>
@@ -3240,7 +3240,7 @@ v1.0.0.matrix.1
   <description lang="en_GB">JetProxy</description>
   <assets>
     <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
+    <fanart>fanart.jpg</fanart>  
   </assets>
 </extension>
 </addon>
