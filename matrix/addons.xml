@@ -2432,7 +2432,7 @@ v3.0.3
   </extension>
 </addon>
 
-<addon id="plugin.video.aguia.animes" version="0.0.2" name="[B]ÁGUIA ANIMES[/B]" provider-name="Arrow Negra">
+<addon id="plugin.video.aguia.animes" version="0.0.3" name="[B]ÁGUIA ANIMES[/B]" provider-name="@By_Flecha_Negra">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
@@ -2442,10 +2442,10 @@ v3.0.3
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>  
+    </extension>	
     <extension point="xbmc.addon.metadata">
-    <summary>Águia Animes é um addon que reproduz animes</summary>
-    <description>Todos os videos são de sites terceiros, não hospedamos conteudo</description>
+		<summary>Águia Animes é um addon que reproduz animes</summary>
+		<description>Todos os videos são de sites terceiros, não hospedamos conteudo</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <disclaimer>The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
