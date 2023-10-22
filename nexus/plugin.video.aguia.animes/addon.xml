@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aguia.animes" version="0.0.2" name="[B]ÁGUIA ANIMES[/B]" provider-name="Arrow Negra">
+<addon id="plugin.video.aguia.animes" version="0.0.3" name="[B]ÁGUIA ANIMES[/B]" provider-name="@By_Flecha_Negra">
     <requires>
         <import addon="script.module.simplejson" />
         <import addon="script.module.six" />
