@@ -1455,7 +1455,7 @@ v1.14.1 (2021-02-25)
   </extension>
 </addon>
 
-<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.2" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+<addon id="plugin.video.portugal" name="[COLOR lime]Port[COLORgrey]ugal[/COLOR]" version="0.0.3" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
   <extension point="xbmc.python.pluginsource"
       library="default.py">
     <provides>video</provides>
