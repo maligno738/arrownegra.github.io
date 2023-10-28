@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.blacktruck" name="[COLORblack]Black[COLORmaroon]Truck[/COLOR]" version="2.3.3" provider-name="[COLOR orange]@by_flechanegra[/COLOR]">
+  <extension point="xbmc.python.pluginsource"
+			library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">[COLOR maroon] Only for the best!!![/COLOR] </summary>
+	<language>en</language>
+	<description lang="en">[COLOR orange]This [COLORcyan]Arrow[/COLOR][COLORgold]Negra Team[/COLOR] addon does not supply nor provide any illegal content[/COLOR]</description>
+	<platform>all</platform>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
