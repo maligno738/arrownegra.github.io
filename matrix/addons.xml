@@ -3294,13 +3294,13 @@ v1.0.0.matrix.1
   </extension>
 </addon>
 
-<addon id="plugin.video.netflix" name="Netflix" version="1.22.1+matrix.1" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+<addon id="plugin.video.netflix" name="Netflix" version="1.22.3+matrix.1" provider-name="libdev, jojo, asciidisco, caphm, castagnait">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.addon.signals" version="0.0.6+matrix.1"/>
     <import addon="script.module.inputstreamhelper" version="0.5.0+matrix.1"/>
     <import addon="script.module.pycryptodome" version="3.4.3"/>
-    <import addon="script.module.requests" version="2.22.0+matrix.1"/>
+    <import addon="script.module.requests"/>
     <import addon="script.module.myconnpy" version="8.0.18+matrix.1"/> <!--MySQL Connector/Python-->
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
@@ -3365,7 +3365,7 @@ v1.0.0.matrix.1
     <summary lang="zh_TW">Netflix</summary>
     <description lang="zh_TW">Netflix VOD服務套件</description>
     <disclaimer lang="zh_TW">在您居住的國家使用此套件可能並不合法 - 請在安裝前與您當地的法律核對</disclaimer>
-	<assets>
+	  <assets>
       <icon>resources/media/icon.png</icon>
       <fanart>resources/media/fanart.jpg</fanart>
       <screenshot>resources/media/screenshot-01.jpg</screenshot>
@@ -3381,10 +3381,10 @@ v1.0.0.matrix.1
     <email></email>
     <forum>https://forum.kodi.tv/showthread.php?tid=329767</forum>
     <source>https://github.com/CastagnaIT/plugin.video.netflix</source>
-    <news>
-v1.14.1 (2021-02-25)
-- Fixed error caused by installation from scratch
-- Update translations pt_br, zh,tw, ro, fr, zh_cn, jp, kr, gl_es, hu
+    <news>v1.22.3 (2023-09-20)
+- Removed HTTPX module (http2) to fix compatibility with python >= 3.11
+- Restored Requests module (details https://github.com/CastagnaIT/plugin.video.netflix/pull/1622)
+- Fix cookies errors of 1.22.2
     </news>
   </extension>
 </addon>
@@ -3628,31 +3628,7 @@ v1.14.1 (2021-02-25)
     </extension>
 </addon>
 
-<addon id="plugin.video.winner" name="[COLOR orange]WINNER 2[/COLOR]" version="2.1" provider-name="La Taberna and Camaradas">
-    <requires>
-        <import addon="script.module.six" version="1.11.0" />
-        <import addon="plugin.video.duffyou" />
-        <import addon="script.module.simplecache"/>
-        <import addon="script.module.horus" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
 
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">[COLOR orange]WINNER 2[/COLOR]</summary>
-        <description lang="es">Addon con eventos deportivos en directo.</description>
-        <disclaimer lang="es">Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
-        <license lang="es">[B]Este es un software gratuito[/B]</license>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-
-        <news></news>
-    </extension>
-</addon>
 
 <addon id="plugin.video.x-codes" name="[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="2.0.7" provider-name="[COLOR red]Arrow[/COLOR][COLORdarkgrey]Negra[/COLOR]">	<requires>
 		<import addon="script.module.requests" version="2.27.1"/>
