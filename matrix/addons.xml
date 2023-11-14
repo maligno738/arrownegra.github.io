@@ -2,7 +2,7 @@
 <addons>
 <addon
   id="inputstream.adaptive"
-  version="19.0.7"
+  version="20.3.14"
   name="InputStream Adaptive"
   provider-name="peak3d">
   <requires>
@@ -570,7 +570,7 @@ v2.3.14 (2019-02-10)
 
 <addon
   id="inputstream.adaptive"
-  version="19.0.7"
+  version="20.3.14"
   name="InputStream Adaptive"
   provider-name="peak3d">
   <requires>
